@@ -1,7 +1,7 @@
 -- This will insert into Grafana Database, on table dashboard a full new dashboard at your desire
 -- You must change the JSON code as needed
 
--- To Use Transaction mode, set autocommit to OFF or comment it if it isn't the case
+-- To Use Transaction mode, set autocommit to OFF or comment it if isn't the case
 SET autocommit=0;
 
 START TRANSACTION;
